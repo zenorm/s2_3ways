@@ -1,0 +1,217 @@
+12:27:22  
+12:27:22  
+12:27:22    ***********************************************
+12:27:22    *                 ===========                 *
+12:27:22    *                  CARAT 2.0                  *
+12:27:22    *                 ===========                 *
+12:27:22    *                                             *
+12:27:22    *                 SERIAL CODE!                *
+12:27:22    *                                             *
+12:27:22    *                Version 0.1.0                *
+12:27:22    *                                             *
+12:27:22    *  Computer Aided Research and Analysis Tool  *
+12:27:22    *          (object-oriented version)          *
+12:27:22    *        Chair of Structural Analysis,        *
+12:27:22    *   Prof. Dr. K.-U. Bletzinger, TU Muenchen   *
+12:27:22    ***********************************************
+12:27:22  
+12:27:22  
+12:27:22 Used logging system: RLOG
+12:27:22 
+12:27:22 This is a RELEASE version of Carat
+12:27:22 
+12:27:22 --------------------------------------
+12:27:22  ... starting Preprocessing
+12:27:22 --------------------------------------
+12:27:22  
+12:27:22 Reading input file: //Mac/Home/Desktop/MPDA/s2/s2_3ways/s2_3ways/s2sa_test33.txt
+12:27:22  
+12:27:22 Input file path detected: //Mac/Home/Desktop/MPDA/s2/s2_3ways/s2_3ways
+12:27:22 Reading of design nodes finished
+12:27:22 Reading of design evaluation points finished
+12:27:23 Reading of design elements finished
+12:27:23 Reading of design boundaries finished
+12:27:23 Reading of design optimization refinement finished
+12:27:23 Reading of design elements finished
+12:27:23 Reading of design joints finished
+12:27:23 Reading of design supports finished
+12:27:23 Reading of design loads finished
+12:27:23 Reading of design interfaces finished
+12:27:23 load design finished
+12:27:23 Starting to mesh design elements!
+12:27:23 
+12:27:23 Finish meshing design elements!
+12:27:23 
+12:27:23 Starting to mesh design boundary elements!
+12:27:23 
+12:27:23 Finish meshing design boundary elements!
+12:27:23 
+12:27:23 Starting to create the elements from DE elements!
+12:27:23 
+12:27:23 Creating elements from DE elements done!
+12:27:23 
+12:27:23 Starting to create elements from DE boundary elements!
+12:27:23 
+12:27:23 Creating elements from DE boundary elements done!
+12:27:23 
+12:27:23 complete preprocessing done in 1.008000 seconds.
+12:27:23  
+12:27:23 --------------------------------------
+12:27:23  ... starting Solution of problem 1:
+12:27:23 --------------------------------------
+12:27:23  
+12:27:23 Bandwidth reduction started!
+12:27:23 Original bandwith  : 621 
+12:27:23 Original profile   : 265240 
+12:27:23 Using 'CUTHILL_MCKEE' algorithm
+12:27:23 Optimized bandwidth  : 149
+12:27:23 Optimized profile    : 78254
+12:27:23 Bandwith reduction finished in 0.020000 seconds!
+12:27:23  
+12:27:23 GlobalSparseMatrix: starting dry run
+12:27:23 GlobalSparseMatrix: dry run done in 0.030000 seconds.
+12:27:23  
+12:27:23 creation of equation system in 0.002000 seconds.
+12:27:23  
+12:27:23  
+12:27:23  
+12:27:23 Start of time step procedure. Control data.
+12:27:23 -----------------------------------------------------------------------------------
+12:27:23 Control Type                :  FORCE_CONTROL
+12:27:23 Time Steps                  :  10
+12:27:23 Traced Node                 :  0
+12:27:23 Traced Global Dof Type      :  NONE
+12:27:23 Equilibrium Accuracy        :  1.000000e-03
+12:27:23 Max Iter Equilibrium        :  10
+12:27:23 Max. Number of Restarts     :  0
+12:27:23 Step Length Control Algo    :  FIXED
+12:27:23 Suppl. Eigenvalue Analysis  :  NO
+12:27:23 Use Imperfect Design        :  NO
+12:27:23 -----------------------------------------------------------------------------------
+12:27:23  
+12:27:23  
+12:27:23 Time Step No. 1
+12:27:23 -----------------------------------------------------------------------------------
+12:27:23 Control Type             :  FORCE_CONTROL
+12:27:23 Traced Node              :  0
+12:27:23 Traced Global Dof Type   :  NONE
+12:27:23 Load Factor              :  1.000000e-01
+12:27:23 Equilibrium Accuracy     :  1.000000e-03
+12:27:23 Max Iter Equilibrium     :  10
+12:27:23 Number of Restarts       :  0
+12:27:23 -----------------------------------------------------------------------------------
+12:27:23   Iter  |    TracedDisp    |   ArcLength dS   |      ||dU||      |     ||RHS||     
+12:27:23 -----------------------------------------------------------------------------------
+12:27:26     1   |    0.000000e+00  |    1.818802e-01  |    1.519224e-01  |    4.948985e+00
+12:27:28     2   |    0.000000e+00  |    1.875127e-01  |    8.408976e-03  |    4.359333e+04
+12:27:31     3   |    0.000000e+00  |    1.880654e-01  |    7.692413e-04  |    1.482353e+02
+12:27:31 Iteration successful. --------------------------------------------------------------
+12:27:31 Norm of predictor: 0.159275
+12:27:31  
+12:27:31  
+12:27:31 Time Step No. 2
+12:27:31 -----------------------------------------------------------------------------------
+12:27:31 Control Type             :  FORCE_CONTROL
+12:27:31 Traced Node              :  0
+12:27:31 Traced Global Dof Type   :  NONE
+12:27:31 Load Factor              :  2.000000e-01
+12:27:31 Equilibrium Accuracy     :  1.000000e-03
+12:27:31 Max Iter Equilibrium     :  10
+12:27:31 Number of Restarts       :  0
+12:27:31 -----------------------------------------------------------------------------------
+12:27:31   Iter  |    TracedDisp    |   ArcLength dS   |      ||dU||      |     ||RHS||     
+12:27:31 -----------------------------------------------------------------------------------
+12:27:33     1   |    0.000000e+00  |    1.830307e-01  |    2.836003e-02  |    2.218146e+00
+12:27:36     2   |    0.000000e+00  |    1.838484e-01  |    1.294491e-03  |    6.450198e+02
+12:27:38     3   |    0.000000e+00  |    1.838484e-01  |    7.124969e-05  |    2.760621e+00
+12:27:38 Iteration successful. --------------------------------------------------------------
+12:27:38 Norm of predictor: 0.028693
+12:27:38  
+12:27:38  
+12:27:38 Time Step No. 3
+12:27:38 -----------------------------------------------------------------------------------
+12:27:38 Control Type             :  FORCE_CONTROL
+12:27:38 Traced Node              :  0
+12:27:38 Traced Global Dof Type   :  NONE
+12:27:38 Load Factor              :  3.000000e-01
+12:27:38 Equilibrium Accuracy     :  1.000000e-03
+12:27:38 Max Iter Equilibrium     :  10
+12:27:38 Number of Restarts       :  0
+12:27:38 -----------------------------------------------------------------------------------
+12:27:38   Iter  |    TracedDisp    |   ArcLength dS   |      ||dU||      |     ||RHS||     
+12:27:38 -----------------------------------------------------------------------------------
+12:27:41     1   |    0.000000e+00  |    1.157362e-01  |    2.958463e-02  |    1.748574e+00
+12:27:43     2   |    0.000000e+00  |    1.160271e-01  |    2.686605e-03  |    6.865524e+02
+12:27:45     3   |    0.000000e+00  |    1.161003e-01  |    3.551085e-04  |    1.477337e+01
+12:27:45 Iteration successful. --------------------------------------------------------------
+12:27:46 Norm of predictor: 0.030340
+12:27:46  
+12:27:46  
+12:27:46 Time Step No. 4
+12:27:46 -----------------------------------------------------------------------------------
+12:27:46 Control Type             :  FORCE_CONTROL
+12:27:46 Traced Node              :  0
+12:27:46 Traced Global Dof Type   :  NONE
+12:27:46 Load Factor              :  4.000000e-01
+12:27:46 Equilibrium Accuracy     :  1.000000e-03
+12:27:46 Max Iter Equilibrium     :  10
+12:27:46 Number of Restarts       :  0
+12:27:46 -----------------------------------------------------------------------------------
+12:27:46   Iter  |    TracedDisp    |   ArcLength dS   |      ||dU||      |     ||RHS||     
+12:27:46 -----------------------------------------------------------------------------------
+12:27:48     1   |    0.000000e+00  |    1.174991e-01  |    3.139882e-02  |    1.833923e+00
+12:27:50     2   |    0.000000e+00  |    1.183399e-01  |    6.176060e-03  |    7.768165e+02
+12:27:53     3   |    0.000000e+00  |    1.186489e-01  |    1.616812e-03  |    9.051058e+01
+12:27:55     4   |    0.000000e+00  |    1.187220e-01  |    9.635116e-04  |    9.024906e+00
+12:27:55 Iteration successful. --------------------------------------------------------------
+12:27:56 Norm of predictor: 0.033839
+12:27:56  
+12:27:56  
+12:27:56 Time Step No. 5
+12:27:56 -----------------------------------------------------------------------------------
+12:27:56 Control Type             :  FORCE_CONTROL
+12:27:56 Traced Node              :  0
+12:27:56 Traced Global Dof Type   :  NONE
+12:27:56 Load Factor              :  5.000000e-01
+12:27:56 Equilibrium Accuracy     :  1.000000e-03
+12:27:56 Max Iter Equilibrium     :  10
+12:27:56 Number of Restarts       :  0
+12:27:56 -----------------------------------------------------------------------------------
+12:27:56   Iter  |    TracedDisp    |   ArcLength dS   |      ||dU||      |     ||RHS||     
+12:27:56 -----------------------------------------------------------------------------------
+12:27:58     1   |    0.000000e+00  |    1.212303e-01  |    3.490379e-02  |    3.604510e+00
+12:28:00     2   |    0.000000e+00  |    1.248876e-01  |    1.587611e-02  |    1.058495e+03
+12:28:03     3   |    0.000000e+00  |    1.262812e-01  |    7.237178e-03  |    6.042756e+02
+12:28:05     4   |    0.000000e+00  |    1.273082e-01  |    7.464860e-03  |    1.928555e+02
+12:28:07     5   |    0.000000e+00  |    1.275039e-01  |    5.733389e-03  |    2.309288e+02
+12:28:10     6   |    0.000000e+00  |    1.277689e-01  |    5.746949e-03  |    1.496246e+02
+12:28:12     7   |    0.000000e+00  |    1.277775e-01  |    5.506900e-03  |    1.423847e+02
+12:28:15     8   |    0.000000e+00  |    1.278478e-01  |    5.531707e-03  |    1.205670e+02
+12:28:17     9   |    0.000000e+00  |    1.278434e-01  |    5.538899e-03  |    1.150988e+02
+12:28:19    10   |    0.000000e+00  |    1.278589e-01  |    5.578375e-03  |    1.098978e+02
+12:28:19 WARNING Iteration terminated without convergence!. --------------------------------
+12:28:19  
+12:28:19 ###########################################################################
+12:28:19        Time step loop terminated! Convergence could not be reached!        
+12:28:19 ###########################################################################
+12:28:19  
+12:28:20  
+12:28:20  
+12:28:20 Time step procedure finished. Final Summary.
+12:28:20 -----------------------------------------------------------------------------------
+12:28:20 Control Type             :  FORCE_CONTROL
+12:28:20 Time Steps               :  5
+12:28:20 Load Factor              :  5.000000e-01
+12:28:20 Traced Node              :  0
+12:28:20 Traced Global Dof Type   :  NONE
+12:28:20 Equilibrium Accuracy     :  1.000000e-03
+12:28:20 Max Iter Equilibrium     :  10
+12:28:20 -----------------------------------------------------------------------------------
+12:28:20  
+12:28:20  
+12:28:20  
+12:28:20 complete programm execution done in 0 hours, 0 minutes and  57.966000 seconds.
+12:28:20  
+12:28:20 finishing Carat++ successfully.
+12:28:20  
+12:28:20 ...Feierabend! 
